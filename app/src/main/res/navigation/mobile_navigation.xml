@@ -31,6 +31,6 @@
     <fragment
         android:id="@+id/nav_rateus"
         android:name="com.example.navigationbarwithpaddyleaf.RatingBarFragment"
-        android:label="fragment_rating_bar"
+        android:label="রেটিং"
         tools:layout="@layout/fragment_rating_bar" />
 </navigation>

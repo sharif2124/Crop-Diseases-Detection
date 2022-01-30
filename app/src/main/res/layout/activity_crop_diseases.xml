@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CropDiseasesActivity">
+
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:text="Take Picture"
         android:backgroundTint="#DA9228"
+        android:text="Take Picture"
         android:textAllCaps="false"
         android:textSize="21sp"
         android:textStyle="bold" />
