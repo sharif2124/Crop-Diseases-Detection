@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Crop Diseases Detection</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Crop Diseases Detection</string>
+    <string name="nav_header_subtitle">info@bau.edu.bd.gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">হোম</string>
+    <string name="menu_gallery">প্রতিকার</string>
+    <string name="menu_slideshow">ওষুধ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="homepage_text">বাংলাদেশে মোট ফসলী জমির প্রায় ৭৬% জমিতে ধান চাষ করা হয়।এর প্রায় ৭০% জমিতেই আধুনিক জাতের ধান চাষ করা হচ্ছ।"\n"
+        বর্তমানে দেশে প্রায় ১০ লক্ষ হেক্টর জমিতে হাইব্রিড জাতের ধান আবাদ করা হচ্ছে।"\n"স্থানীয় জাতের তুলনায় এসব জাতে পোকামাকড়ের আক্রমণ বেশি হয়।
+        "\n"এসব আধুনিক জাতের ভাল ফলন পাওয়ার জন্য স্থানীয় জাতের তুলনায় বেশি সার ও সেচ দিতে হয়।"\n" এজন্য পোকামাকড়ের আক্রমণও বৃদ্ধি পায়।"\n"এই পোকামাকড় শনাক্তকরনের জন্য আমরা নিয়ে এসেছি আধুনিক অ্যান্ড্রয়েড অ্যাপ্লিকেশন।"\n"এই অ্যাপ্লিকেশনের সুবিধা পেতে নিচের বাটনটিতে চাপ দিন</string>
+    <string name="homebutton">এখানে চাপ দিন</string>
+    <string name="take_picture">ছবি_তুলুন</string>
+    <string name="number">১৬১২৩</string>
+    <string name="hotline">আপনার ধানের সম্যসাটির সমাধানের জন্য নিচের নম্বরটিতে ফোন করুন</string>
+    <string name="defence">১.পানি ধরে রাখা। \n\n ২.ইউরিয়া বেশি প্রয়োগ করা।</string>
+    <string name="medicine">নো-ইন নাটিভো</string>
+
+
+</resources>

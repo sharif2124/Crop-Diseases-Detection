@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/alternative_medicine"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/homeopathy"
+            android:title="@string/menu_slideshow" />
+
+
+    </group>
+
+    <item android:title="যোগাযোগ">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_hotlinenumber"
+                android:icon="@drawable/ic_baseline_call_24"
+                android:title="হটলাইন নম্বর" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="শেয়ার" />
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:title="ই-মেল" />
+
+            <item
+                android:id="@+id/nav_rateus"
+                android:icon="@drawable/ic_baseline_star_rate_24"
+                android:title="রেটিং" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bt_take_picture" type="id" />
+    <item name="lv_probabilities" type="id" />
+    <item name="iv_capture" type="id" />
+</resources>

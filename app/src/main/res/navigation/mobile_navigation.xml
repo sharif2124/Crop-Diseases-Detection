@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navigationbarwithpaddyleaf.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.navigationbarwithpaddyleaf.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.navigationbarwithpaddyleaf.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_hotlinenumber"
+        android:name="com.example.navigationbarwithpaddyleaf.HotlinenumberFragment"
+        android:label="হটলাইন নম্বর"
+        tools:layout="@layout/fragment_hotlinenumber" />
+    <fragment
+        android:id="@+id/nav_rateus"
+        android:name="com.example.navigationbarwithpaddyleaf.RatingBarFragment"
+        android:label="fragment_rating_bar"
+        tools:layout="@layout/fragment_rating_bar" />
+</navigation>

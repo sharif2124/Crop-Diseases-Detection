@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2203125" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2203125" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2203125" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1125" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1125" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1125" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/activity_crop_diseases.xml" value="0.1" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/activity_paddyleaf.xml" value="0.15" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/app_bar_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/content_main.xml" value="0.13405797101449277" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_home.xml" value="0.15" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_hotlinenumber.xml" value="0.1213768115942029" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_rating_bar.xml" value="0.1" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_share.xml" value="0.1" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_slideshow.xml" value="0.12771739130434784" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/nav_header_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/menu/menu_bottom.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
