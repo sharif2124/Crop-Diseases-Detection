@@ -13,13 +13,21 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.navigationbarwithpaddyleaf.CropDiseasesActivity;
+import com.example.navigationbarwithpaddyleaf.R;
+import com.example.navigationbarwithpaddyleaf.SliderAdapter;
 import com.example.navigationbarwithpaddyleaf.databinding.FragmentHomeBinding;
+import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType;
+import com.smarteist.autoimageslider.SliderAnimations;
+import com.smarteist.autoimageslider.SliderView;
 
 public class HomeFragment extends Fragment {
 
     private HomeViewModel homeViewModel;
     private FragmentHomeBinding binding;
     Button button;
+    private int[] images;
+    SliderAdapter adapter;
+    SliderView sliderView;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -28,9 +36,16 @@ public class HomeFragment extends Fragment {
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
+        sliderView=root.findViewById(R.id.sliderView);
+        images=new int[]{R.drawable.slider1,R.drawable.slider2,R.drawable.slider3,R.drawable.slider4};
+        adapter=new SliderAdapter(images);
+        sliderView.setSliderAdapter(adapter);
+        sliderView.setSliderTransformAnimation(SliderAnimations.SIMPLETRANSFORMATION);
+        sliderView.setIndicatorAnimation(IndicatorAnimationType.DROP);
+        sliderView.startAutoCycle();
 
        // final TextView textView = binding.textHome;
-        final ImageView imageView = binding.image;
+        //final ImageView imageView = binding.image;
         final Button button = binding.homebutton;
        // homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
           //  @Override

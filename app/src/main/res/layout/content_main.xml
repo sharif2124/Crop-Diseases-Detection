@@ -25,9 +25,10 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         app:backgroundColor="@color/purple_500"
+        app:iconSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/menu_bottom" />
 </androidx.constraintlayout.widget.ConstraintLayout>
