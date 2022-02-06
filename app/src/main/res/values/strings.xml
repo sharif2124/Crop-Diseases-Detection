@@ -3,7 +3,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Crop Diseases Detection</string>
-    <string name="nav_header_subtitle">info@bau.edu.bd.gmail.com</string>
+    <string name="nav_header_subtitle">sharifk064@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -21,7 +21,11 @@
     <string name="number">১৬১২৩</string>
     <string name="hotline">আপনার ধানের সম্যসাটির সমাধানের জন্য নিচের নম্বরটিতে ফোন করুন</string>
     <string name="defence">১.পানি ধরে রাখা। \n\n ২.ইউরিয়া বেশি প্রয়োগ করা।</string>
-    <string name="medicine">নো-ইন নাটিভো</string>
+    <string name="medicine">বাদামী দাগ রোগঃ আইপ্রোডিয়ান(iprodione),প্রপিকোনাজাল(propiconazole)
+    \n\nকান্ড পচা রোগঃ অ্যাজোক্রিট্রোবিন(Azoxystrobin),ট্রাইয়াজলস(Triazoles)\n\n পাতা পোড়া রোগঃ কপার সালফেটের সাথে অনুমোদিত জীবাণুনাশক মিশিয়ে বীজ শোধন
+        করার সুপারিশ আছে।\n\n গাড় বাদামি দাগ রোগঃ নো-ইন নাটিভো।
+
+    </string>
 
 
 </resources>

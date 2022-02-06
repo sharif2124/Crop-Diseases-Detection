@@ -24,12 +24,26 @@
         android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="@+id/google"
         app:layout_constraintEnd_toEndOf="parent"
-
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/google"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/loadingtext" />
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        android:text="Crop Diseases Detection "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#38b000"
+         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

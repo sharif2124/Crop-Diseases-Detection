@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.RatingBar;
 import android.widget.Toast;
 
+import es.dmoral.toasty.Toasty;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link RatingBarFragment#newInstance} factory method to
@@ -69,7 +71,8 @@ RatingBar ratingBar;
       btn.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View view) {
-              Toast.makeText(getActivity(), "Rating Value"+ratingBar.getRating(), Toast.LENGTH_LONG).show();
+              Toasty.success(getActivity(), "Rating Value"+ratingBar.getRating(), Toast.LENGTH_LONG, true).show();
+              //Toast.makeText(getActivity(), "Rating Value"+ratingBar.getRating(), Toast.LENGTH_LONG).show();
           }
       });
         return v;

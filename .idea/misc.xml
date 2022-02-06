@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/bg_button_shape.xml" value="0.11302083333333333" />
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/bg_color_oval.xml" value="0.11302083333333333" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/bg_rating_shape.xml" value="0.11302083333333333" />
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.2203125" />
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2203125" />
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2203125" />
@@ -20,9 +21,9 @@
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_home.xml" value="0.15" />
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_hotlinenumber.xml" value="0.1213768115942029" />
-        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_rating_bar.xml" value="0.1" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_rating_bar.xml" value="0.15" />
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_share.xml" value="0.1" />
-        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_slideshow.xml" value="0.12771739130434784" />
+        <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/fragment_slideshow.xml" value="0.14" />
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/item_layout.xml" value="0.1" />
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/layout/nav_header_main.xml" value="0.12771739130434784" />
         <entry key="..\:/Final Year Project/Navigationbar with paddyleaf/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />

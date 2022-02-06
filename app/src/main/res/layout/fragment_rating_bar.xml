@@ -4,10 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".RatingBarFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+      android:src="@drawable/rating"
+      />
   <RatingBar
       android:id="@+id/rating"
       android:layout_width="wrap_content"
@@ -15,14 +18,19 @@
       android:rating="3.4"
       android:stepSize="0.5"
       android:numStars="5"
+      android:layout_gravity="center"
+      android:progressTint="@color/rating_color"
+
       />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/rating_bar_submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="রেটিং"
         android:textStyle="bold"
         android:textSize="20sp"
+        android:background="@drawable/bg_rating_shape"
         android:layout_marginTop="16dp"
+        android:layout_gravity="center"
         />
 </LinearLayout>

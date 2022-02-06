@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="nav">#56ab91</color>
+    <color name="nav2">#248277</color>
+    <color name="nav3">#26A195</color>
+    <color name="nav4">#025A5A</color>
+    <color name="home_button">#90dbf4</color>
+    <color name="medicine_text">#80b918</color>
+    <color name="defence_text">#457b9d</color>
+    <color name="hotline_text">#0466c8</color>
+    <color name="rating_color">#fcbf49</color>
 </resources>

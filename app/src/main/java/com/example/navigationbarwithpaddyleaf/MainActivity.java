@@ -19,6 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.navigationbarwithpaddyleaf.databinding.ActivityMainBinding;
 
+import es.dmoral.toasty.Toasty;
 import me.ibrahimsn.lib.SmoothBottomBar;
 
 public class MainActivity extends AppCompatActivity {
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         menuItem.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
-                Toast.makeText(MainActivity.this, "info@bau.edu.bd.gmail.com", Toast.LENGTH_LONG).show();
+                Toasty.info(MainActivity.this, "sharifk064@gmail.com", Toast.LENGTH_LONG, true).show();
                 return true;
             }
         });
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         menuItem2.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
-                Toast.makeText(MainActivity.this, "Share", Toast.LENGTH_SHORT).show();
+                Toasty.info(MainActivity.this, "Share", Toast.LENGTH_LONG, true).show();
                 return true;
             }
         });

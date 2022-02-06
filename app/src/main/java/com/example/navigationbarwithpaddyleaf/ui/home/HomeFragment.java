@@ -37,7 +37,7 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
         sliderView=root.findViewById(R.id.sliderView);
-        images=new int[]{R.drawable.slider1,R.drawable.slider2,R.drawable.slider3,R.drawable.slider4};
+        images=new int[]{R.drawable.slider9,R.drawable.slider5,R.drawable.slider6,R.drawable.slider7,R.drawable.slider8};
         adapter=new SliderAdapter(images);
         sliderView.setSliderAdapter(adapter);
         sliderView.setSliderTransformAnimation(SliderAnimations.SIMPLETRANSFORMATION);

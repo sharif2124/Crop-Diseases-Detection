@@ -58,4 +58,7 @@ dependencies {
 
     //image slider
     implementation 'com.github.smarteist:autoimageslider:1.4.0'
+
+    //colorful toast
+    implementation 'com.github.GrenderG:Toasty:1.5.2'
 }

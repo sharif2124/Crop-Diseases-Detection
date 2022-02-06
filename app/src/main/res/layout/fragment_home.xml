@@ -25,6 +25,13 @@
             app:sliderStartAutoCycle="true"
 
             />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sliderView"
+            >
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,21 +39,24 @@
            android:layout_below="@+id/sliderView"
             >
 
-            <TextView
-                android:id="@+id/textview"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#95d5b2"
-                android:text="@string/homepage_text"
-                android:textAlignment="center"
-                android:textSize="25sp" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:layout_below="@id/textview"
-                >
+                <TextView
+                    android:id="@+id/textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#95d5b2"
+                    android:text="@string/homepage_text"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@id/textview"
+                    >
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/homebutton"
@@ -59,10 +69,12 @@
 
                     android:textSize="25sp" />
 
+
+
             </RelativeLayout>
 
         </RelativeLayout>
-
+        </ScrollView>
     </RelativeLayout>
 
 
