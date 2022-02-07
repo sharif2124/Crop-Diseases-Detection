@@ -8,12 +8,13 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:text="Take Picture"
         android:background="@drawable/bg_button_shape"
+        android:drawableLeft="@drawable/ic_baseline_photo_camera_24"
+        android:text="ধানের পাতার ছবি তুলুন"
         android:textAllCaps="false"
         android:textSize="21sp"
         android:textStyle="bold" />
@@ -56,7 +57,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20sp"
         android:text="Confidences:"
-        android:textSize="15sp"
+        android:textSize="13sp"
         android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"

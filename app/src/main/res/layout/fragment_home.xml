@@ -40,14 +40,14 @@
             >
 
 
-                <TextView
-                    android:id="@+id/textview"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#95d5b2"
-                    android:text="@string/homepage_text"
-                    android:textAlignment="center"
-                    android:textSize="25sp" />
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#95d5b2"
+                android:text="@string/homepage_text"
+                android:textAlignment="center"
+                android:textSize="25sp" />
 
 
 
@@ -58,16 +58,15 @@
                     android:layout_below="@id/textview"
                     >
 
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/homebutton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/bg_button_shape"
-                    android:gravity="center_horizontal"
-                    android:text="@string/homebutton"
-
-                    android:textSize="25sp" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/homebutton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/bg_button_shape"
+                        android:gravity="center_horizontal"
+                        android:text="@string/homebutton"
+                        android:textSize="25sp" />
 
 
 
