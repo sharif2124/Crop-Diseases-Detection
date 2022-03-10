@@ -18,8 +18,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_rawRes="@raw/splash" />
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/text"
+
+    <TextView
+        android:id="@+id/appname"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
         app:layout_constraintBottom_toBottomOf="@+id/google"
@@ -27,23 +28,23 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/google"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loadingtext" />
-    <TextView
-        android:id="@+id/appname"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toBottomOf="@+id/text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text"
         android:text="Crop Diseases Detection "
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="#38b000"
          />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/appname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appname"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loadingtext" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

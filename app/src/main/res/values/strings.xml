@@ -13,10 +13,10 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="homepage_text">বাংলাদেশে মোট ফসলী জমির প্রায় ৭৬% জমিতে ধান চাষ করা হয়।"\n"
-        বর্তমানে দেশে প্রায় ১০ লক্ষ হেক্টর জমিতে হাইব্রিড জাতের ধান আবাদ করা হচ্ছে।"\n"স্থানীয় জাতের তুলনায় এসব জাতে পোকামাকড়ের আক্রমণ বেশি হয়।
+    <string name="homepage_text">বাংলাদেশে মোট ফসলী জমির প্রায় ৭০% জমিতে আধুনিক জাতের ধান চাষ করা হয়।"\n"
+        "স্থানীয় জাতের তুলনায় এসব জাতে পোকামাকড়ের আক্রমণ বেশি হয়।
         "\n"আপনার ফসলের রোগ শনাক্ত করতে নিচের বাটনটিতে চাপ দিন</string>
-    <string name="homebutton">এখানে চাপ দিন</string>
+    <string name="homebutton">ছবি তুলুন</string>
     <string name="take_picture">ছবি_তুলুন</string>
     <string name="number">১৬১২৩</string>
     <string name="hotline">আপনার ধানের সম্যসাটির সমাধানের জন্য নিচের নম্বরটিতে ফোন করুন</string>

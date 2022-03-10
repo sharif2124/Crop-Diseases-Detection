@@ -50,24 +50,21 @@
                 android:textSize="25sp" />
 
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textview"
+                android:gravity="center_horizontal">
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/homebutton"
+                    android:layout_width="340dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_button_shape"
                     android:gravity="center_horizontal"
-                    android:layout_below="@id/textview"
-                    >
-
-                    <androidx.appcompat.widget.AppCompatButton
-                        android:id="@+id/homebutton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:background="@drawable/bg_button_shape"
-                        android:gravity="center_horizontal"
-                        android:text="@string/homebutton"
-                        android:textSize="25sp" />
-
+                    android:text="@string/homebutton"
+                    android:textSize="25sp" />
 
 
             </RelativeLayout>
