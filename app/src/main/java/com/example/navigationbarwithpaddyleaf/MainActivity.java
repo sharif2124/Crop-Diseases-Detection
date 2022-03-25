@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.Menu;
 import android.widget.Toast;
 
+import com.example.navigationbarwithpaddyleaf.ui.home.HomeFragment;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -112,5 +113,14 @@ public class MainActivity extends AppCompatActivity {
 
         smoothBottomBar.setupWithNavController(menu,navController);
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (HomeFragment.listner != null) {
+            HomeFragment.listner.backPress();
+        } else {
+            super.onBackPressed();
+        }
     }
 }

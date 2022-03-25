@@ -1,5 +1,6 @@
 package com.example.navigationbarwithpaddyleaf.ui.home;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.navigationbarwithpaddyleaf.BackKeyPressListner;
 import com.example.navigationbarwithpaddyleaf.CropDiseasesActivity;
 import com.example.navigationbarwithpaddyleaf.R;
 import com.example.navigationbarwithpaddyleaf.SliderAdapter;
@@ -20,7 +22,7 @@ import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnima
 import com.smarteist.autoimageslider.SliderAnimations;
 import com.smarteist.autoimageslider.SliderView;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements BackKeyPressListner {
 
     private HomeViewModel homeViewModel;
     private FragmentHomeBinding binding;
@@ -28,6 +30,8 @@ public class HomeFragment extends Fragment {
     private int[] images;
     SliderAdapter adapter;
     SliderView sliderView;
+    public static BackKeyPressListner listner;
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -70,5 +74,32 @@ public class HomeFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+    }
+
+    @Override
+    public void backPress() {
+        AlertDialog.Builder alertdialog;
+        alertdialog = new AlertDialog.Builder(getActivity());
+        alertdialog.setIcon(R.drawable.ic_baseline_warning_24);
+        alertdialog.setTitle("Exit");
+        alertdialog.setMessage("Do You Want to Exit");
+        alertdialog.setCancelable(false);
+
+        alertdialog.setPositiveButton("Yes", (dialog, which) -> getActivity().finish());
+        alertdialog.setNegativeButton("No", (dialog, which) -> dialog.cancel());
+
+        AlertDialog alertDialog = alertdialog.create();
+        alertDialog.show();
+    }
+    @Override
+    public void onPause() {
+        listner = null;
+        super.onPause();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        listner = this;
     }
 }

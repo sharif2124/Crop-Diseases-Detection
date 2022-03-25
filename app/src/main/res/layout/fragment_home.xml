@@ -59,11 +59,11 @@
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/homebutton"
                     android:layout_width="340dp"
-                    android:layout_height="50dp"
+                    android:layout_height="57dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/bg_button_shape"
                     android:gravity="center_horizontal"
-                    android:text="@string/homebutton"
+                    android:text="ছবি তুলুন"
                     android:textSize="25sp" />
 
 
